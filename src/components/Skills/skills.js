@@ -9,13 +9,13 @@ export const skills = () => {
     <section id='skills'>
         <span className="skillTitle">What I do</span>
         {/* <span className="skillDesc"> I am skilled and passionate web designer and mobile developer with 1 year experience using Java and Kotlin language.</span> */}
-        <span className="skillDesc">I am a skilled and passionate web designer with experience in creating visually appealing user-friendly websites. I have a strong understanding of design and a keen eye for details. I am proficient in HTML, CSS, and JavaScrip, as well as design software such as Adobe Photoshop and Illustrator.</span>
+        <span className="skillDesc">I am a skilled and passionate web designer with experience in creating visually appealing user-friendly websites. I have a strong understanding of design and a keen eye for details. I am proficient in HTML, CSS, and JavaScript, as well as design software such as Adobe Photoshop and Illustrator.</span>
         <div className="skillBars">
           <div className="skillBar">
               <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
               <div className="skillBarText">
                 <h2>UI/UX Design</h2>
-                <p>proficient use Figma in design the User Interface for mobile application.</p>
+                <p>Proficient use Figma in design the User Interface for mobile application.</p>
               </div>
           </div>
           <div className="skillBar">
