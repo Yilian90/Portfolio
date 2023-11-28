@@ -58,6 +58,6 @@
 
 @media screen and (max-width:480px) {
     .bg{
-        right: -20v;
+        right: -20vw
     }
 }
