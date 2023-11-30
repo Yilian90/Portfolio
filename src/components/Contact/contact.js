@@ -33,8 +33,9 @@ const Contact = () => {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="Client" className="clientImg" title="GitHub"/>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original-wordmark.svg" alt="Client" className="clientImg" title="Kotlin"/>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="Client" className="clientImg" title="Git"/>
-             <img src="https://img.jsdelivr.com/github.com/firebase.png" alt="Client" className="clientImg" title="Firebase"/>
-            <img src="https://img.jsdelivr.com/github.com/twbs.png" alt="Client" className="clientImg" title="Bootstrap"/>
+            <img src="https://img.jsdelivr.com/github.com/firebase.png" alt="Client" className="clientImg" title="Firebase"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" alt="Client" className="clientImg" title="Bootstrap"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" alt="Client" className="clientImg" title="Vue Js"/>
         </div>
         </div>
         <div id="contact">
