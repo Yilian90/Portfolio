@@ -1,12 +1,6 @@
 import React, { useRef } from 'react'
 import './contact.css';
-import Languages1 from '../../assets/css.png'
-import Languages2 from '../../assets/figma.png'
-import Languages3 from '../../assets/html.png'
-import Languages4 from '../../assets/react.png'
-import EmailIcon from '../../assets/emailIcon.png'
 import GithubIcon from '../../assets/githubIcon.png';
-import LinkedinIcon from '../../assets/linkedinIcon.png';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -32,10 +26,15 @@ const Contact = () => {
               I have experience  with these technologies
           </p>
           <div className="clientImgs">
-            <img src={Languages1} alt="Client" className="clientImg" />
-            <img src={Languages2} alt="Client" className="clientImg" />
-            <img src={Languages3} alt="Client" className="clientImg" />
-            <img src={Languages4} alt="Client" className="clientImg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="Client" className="clientImg" title="React"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="Client" className="clientImg" title="HTML 5"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="Client" className="clientImg" title="CSS 3"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="Client" className="clientImg" title="Java"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="Client" className="clientImg" title="GitHub"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original-wordmark.svg" alt="Client" className="clientImg" title="Kotlin"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="Client" className="clientImg" title="Git"/>
+             <img src="https://img.jsdelivr.com/github.com/firebase.png" alt="Client" className="clientImg" title="Firebase"/>
+            <img src="https://img.jsdelivr.com/github.com/twbs.png" alt="Client" className="clientImg" title="Bootstrap"/>
         </div>
         </div>
         <div id="contact">
@@ -47,9 +46,12 @@ const Contact = () => {
               <textarea className ="msg" name="message" rows="5" placeholder="Your Message"></textarea> 
               <button type="submit" value="Send" className="submitBtn">Submit</button>
               <div className="links">
-                  <img src={EmailIcon} alt="Email" className="link" />
-                  <img src={GithubIcon} alt="Github" className="link" />
-                  <img src={LinkedinIcon} alt="Linkedin" className="link" />
+                  <a href="https://github.com/Yilian90">
+                    <img src={GithubIcon} alt="Github" className="link" />
+                  </a>
+                  <a href="www.linkedin.com/in/aty-apriani">
+                    <img src="https://img.jsdelivr.com/github.com/linkedin.png" alt="Linkedin" className="link" />
+                  </a>
               </div>
             </form>
         </div>
