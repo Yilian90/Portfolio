@@ -1,5 +1,5 @@
 .navbar{
-    background: rgb(30 30, 30);
+    background: rgb(70, 123, 67);
     height: 5rem;
     width: 100vw;
     max-width: 75rems;
@@ -26,9 +26,9 @@
 }
 
 .desktopMenuListItem:hover{
-    color:blueviolet;
+    color:144, 200, 141;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid blueviolet;
+    border-bottom: 3px solid rgb(70, 123, 67);
 }
 
 .desktopMenuBtn{
@@ -49,9 +49,9 @@
 }
 
 .active {
-    color: blueviolet;
+    color:rgb(144, 200, 141);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid blueviolet;
+    border-bottom: 3px solid rgb(144, 200, 141);
 }
 
 .mobMenu{

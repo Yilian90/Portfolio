@@ -50,7 +50,7 @@ const Contact = () => {
                   <a href="https://github.com/Yilian90">
                     <img src={GithubIcon} alt="Github" className="link" />
                   </a>
-                  <a href="www.linkedin.com/in/aty-apriani">
+                  <a href="https://www.linkedin.com/in/aty-apriani/">
                     <img src="https://img.jsdelivr.com/github.com/linkedin.png" alt="Linkedin" className="link" />
                   </a>
               </div>
