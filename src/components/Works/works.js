@@ -14,9 +14,9 @@ const Works = () => {
         <span className='worksDecs'>I take pride in paying attention to the smallest details and making sure that my works is pixel perferct. I am excited to bring my skills and experience to help businesses achieve their goals amd create a strong online presence.</span>
         <div className='worksImgs'>
             <img src={Mobiklinik} alt=""  className="worksImg" />
-            <p>download mobiklinik.apk here</p>
+            <p>download mobiklinik.apk <a href="https://github.com/Yilian90/mobiklinik/blob/main/app/release/app-release.apk"></a></p>
             <img src={Cupcake} alt="" className="worksImg" />
-            <p>download mobiklinik.apk here</p>
+            <p></p>
             <img src={Portfolio3} alt="" className="worksImg" />
             <img src={Portfolio4} alt="" className="worksImg" />
             <img src={Portfolio5} alt="" className="worksImg" />
